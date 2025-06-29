@@ -23,4 +23,4 @@ jobs:
         uses: sonarsource/sonarqube-scan-action@master
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
-          SONAR_HOST_URL: 'http://<あなたのSonarQubeサーバのパブリックIP>:9000'
+          SONAR_HOST_URL: 'http://3.27.231.107:9000'
